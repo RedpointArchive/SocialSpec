@@ -6,8 +6,7 @@ for use in Mastodon and other implementors of OStatus.
 ## Schema / XSD
 
 The XSD for private messaging is located at `schema.xsd`.  The XML namespace for the specification is 
-`https://raw.githubusercontent.com/Gargron/mastodon/master/ref/private-messaging/2016.1/schema.xsd` (which aligns
-with the raw XSD document for the spec).
+`https://socialspec.org/private-messaging/2016.1`.
 
 ## Implementation
 
@@ -21,7 +20,7 @@ inclusion would be:
 
 ```xml
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xmlns:thr="http://purl.org/syndication/thread/1.0" xmlns:activity="http://activitystrea.ms/spec/1.0/" xmlns:poco="http://portablecontacts.net/spec/1.0" xmlns:media="http://purl.org/syndication/atommedia" xmlns:pm="https://raw.githubusercontent.com/Gargron/mastodon/master/ref/private-messaging/2016.1/schema.xsd">
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:thr="http://purl.org/syndication/thread/1.0" xmlns:activity="http://activitystrea.ms/spec/1.0/" xmlns:poco="http://portablecontacts.net/spec/1.0" xmlns:media="http://purl.org/syndication/atommedia" xmlns:pm="https://socialspec.org/private-messaging/2016.1">
   <id>https://mastodon.social/users/hq.atom</id>
   <title>June</title>
   <subtitle>game developer - she/her - @hachque (Twitter) - https://www.redpointgames.com.au/ </subtitle>
