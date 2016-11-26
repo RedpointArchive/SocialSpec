@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root
-  xmlns:pm="https://raw.githubusercontent.com/Gargron/mastodon/master/ref/private-messaging/2016.1/schema.xsd"
+  xmlns:pm="https://socialspec.org/private-messaging/2016.1"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="https://raw.githubusercontent.com/Gargron/mastodon/master/ref/private-messaging/2016.1/schema.xsd schema.xsd">
+  xsi:schemaLocation="https://socialspec.org/private-messaging/2016.1 schema.xsd">
 
   <!--
     Example for an element within a Person Activity Stream object.
